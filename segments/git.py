@@ -87,4 +87,5 @@ def add_git_segment(powerline):
         fg = Color.REPO_DIRTY_FG
 
     powerline.append(' %s ' % branch, fg, bg)
+    powerline.append(u' 不要忘记同步哦～ ', Color.HOME_FG, Color.HOME_BG)
     stats.add_to_powerline(powerline, Color)
